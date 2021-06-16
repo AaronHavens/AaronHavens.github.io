@@ -1,4 +1,4 @@
-# jemdoc: menu{MENU}{index.html}, nofooter
+# jemdoc: menu{MENU}{index.html}
 == Aaron Havens
 
 ~~~
@@ -7,11 +7,11 @@
 PhD student in Electrical and Computer Engineering at [https://csl.illinois.edu/ University of Illinois at Urbana-Champaign] \n
 Urbana, Illinois, United States \n
 \n
-Email: ahavens2 \[at\] illinois.edu \n
+Email: ahavens2 \[at\] illinois \[dot\] edu \n
 \[[https://scholar.google.com/citations?user=HBAXF6YAAAAJ&hl=en Google Scholar]\]\[[docs/aaron_cv.pdf Curriculem Vitae]\] \n
 
 == About me
-I am currently a PhD student studying the interplay of tools in control theory, optimization and machine learning under Professor [https://binhu7.github.io Bin Hu].
+I am currently a PhD student studying the interplay of tools in control theory, optimization and machine learning under Professor [https://binhu7.github.io Bin Hu]. In particular, I am interested in using control theoretic stability and safety conditions (such as LMIs) to regularize the learned controller solutions and sometimes guarantee system properties.
 
 ~~~
 
@@ -29,6 +29,6 @@ I am currently a PhD student studying the interplay of tools in control theory, 
 - B.S. in Mechanical Engineering, Iowa State University of Science and Technology, 2013-2017
 
 == Research Interests 
-- Interplay of Control, Optimization and Learning
+- Control, Optimization and Learning
 - Robust Autonomous Systems and Robotics
 
