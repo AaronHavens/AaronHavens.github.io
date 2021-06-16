@@ -1,0 +1,16 @@
+# jemdoc: menu{MENU}{blog.html}, nofooter
+= /Cool/ Facts about Control
+
+== A necessary stability condition for differentiable autonomous systems.
+/Theorem/: \n 
+/Consider the autonomous system/ 
+\( 
+        \dot x = f(x) 
+\) 
+/in dimension $n\neq 4$ with isolated equilibrium point $x^*$. Then $x^*$ is locally asymptotically stable only if the index of $f$ at $x^*$ is $(-1)^n$, that is/ 
+\( 
+\text{Ind}_{x^*}(f) = (-1)^n. 
+\)
+
+
+~                         
