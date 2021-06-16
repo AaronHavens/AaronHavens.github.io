@@ -7,14 +7,19 @@ table#tlayout {
 }
 
 body {
-	background: AntiqueWhite;
-	font-family: "Lucida Console", monospace;
+        /*background: AntiqueWhite;*/
+        background-image: url("pics/fish_sphere.jpg");
+        /*background-repeat: no-repeat;*/
+        background-size: cover;
+        background-color: AntiqueWhite;
+        font-family: "Lucida Console", monospace;
 	padding-bottom: 8px;
-	margin: 0;
+    	margin: 0;
 }
 
 #layout-menu {
 	background: DarkKhaki;
+        /*background-image: url("pics/fish_sphere.jpg");*/
 	border: 1px solid #dddddd;
 	padding-top: 0.5em;
 	padding-left: 8px;
@@ -40,7 +45,7 @@ body {
 	text-align: left;
 	vertical-align: top;
 	min-width: 800px;
-	width: 800px;
+	width: auto;
 }
 
 #layout-menu a {
