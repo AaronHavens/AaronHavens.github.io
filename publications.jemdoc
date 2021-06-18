@@ -1,3 +1,14 @@
 # jemdoc: menu{MENU}{publications.html}
-== Publications 
-Under Construction
+= Publications 
+
+== Conference Papers
+. *A. Havens* and B. Hu. [https://arxiv.org/abs/2103.12945 /On Imitation Learning of Linear Control Policies:Enforcing Stability and Robustness Constraints via LMI Conditions/]. American Control Conference (ACC), 2021
+
+. *A. Havens* and G. Chowdhary. [https://arxiv.org/abs/2106.02973 /Forced Variational Integrator Networks forPrediction and Control of Mechanical Systems/]. 3rd Conference onLearning for Dynamics and Control (L4DC), 2021.
+
+. N. K. Uppalapati, B. W., *A. Havens*, A. Mahdian, G. Chowdhary, and G. Krishnan.  [https://www.semanticscholar.org/paper/A-Berry-Picking-Robot-With-A-Hybrid-Soft-Rigid-Arm%3A-Uppalapati-Walt/15ebfce354e0c30ffd9bc87f9a9cc188590b16dc?p2df  /A Berry Picking Robot With A HybridSoft-Rigid Arm: Design and Task Space Control/]. InProceedings of Robotics:Science and Systems (RSS), 2020.
+
+. *A. Havens*, Z. Jiang, and S. Sarkar.  [https://papers.nips.cc/paper/2018/hash/8a36dfc67ebfbbea9bd01cd8a4c8ad32-Abstract.html /Online Robust PolicyLearning in the Presence of Unknown Adversaries/]. In Advances in Neural Information Processing Systems (NeurIPS) 31, 2018.
+
+== Preprints
+. *A, Havens*, Y. Ouyang, P. Nagarajan, and Y. Fujita. [https://arxiv.org/abs/1912.04201 /Learning Latent State Spaces for Planning Through Reward Prediction/]. In Neurips Deep Reinforcement Learning Workshop, 2019.
