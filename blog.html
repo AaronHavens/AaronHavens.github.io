@@ -29,8 +29,24 @@ MathJax.Hub.Config({
 <div id="toptitle">
 <h1>Cool Facts about Control</h1>
 </div>
-<h2>A necessary stability condition for differentiable autonomous systems.</h2>
-<p><i>Theorem: Consider the autonomous system</i>
+<h2>A Necessary Stability Condition for a Differentiable Autonomous System</h2>
+<h3>(Under Construction)</h3>
+<p>Consider the differentiable function \(f:\mathbb{R}^n \rightarrow \mathbb{R}^n\). Let \(x^*\in\mathbb{R}^n\) be an isolated equilibrium point. Because \(x^*\) is isolated, there exists \(\varepsilon &gt;0\) such that for the ball \(B_{\varepsilon}(x^*)\) centered at \(x^*\) there are no other equilibrium points. Let \(S_{\varepsilon}(x^*)\) be the boundary of \(B_{\varepsilon}(x^*)\). Then we can give the well-defined map:
+</p>
+<p style="text-align:center">
+\[
+f_{\varepsilon} : S_{\varepsilon}(x^*) \rightarrow S^{n-1} : x \mapsto \frac{f(x)}{||f(x)||}.
+\]
+</p><p>We define the <i>index</i> of the isolated equilibrium point \(x^*\) to be the topological degree of \(f_{\varepsilon}\) around \(x^*\). Since \(S_{\varepsilon}(x^*)\) and \(S^{n-1}\) are both compact smooth manifolds and \(f_{\varepsilon}\) is differentiable on its domain, we can use a particular definition of degree which is rather straight-forward to compute with respect to some regular value \(y \in S^{n-1}\)
+</p>
+<p style="text-align:center">
+\[
+	\text{Ind}_{x^*}(f) = \text{deg} (f_{\varepsilon}) = \sum_{x\in f^{-1}(y)} \text{sign} \left( \det \left( \frac{\partial f_{\varepsilon}}{\partial x}\Big\rvert_{x} \right) \right)
+
+\]
+</p><p>Note that because \(S_{\varepsilon}(x^*)\) is compact and \(y\) is a regular value, the cardinality of \(f^{-1}(y)\) is finite. The index of a map around an equilibrium point can be useful since it provides a necessary condition for local asymptotic stability with the following statement.
+</p>
+<p><b><i>Theorem</b>: Consider the autonomous system</i>
 </p>
 <p style="text-align:center">
 \[ 
@@ -44,13 +60,14 @@ MathJax.Hub.Config({
 \]
 </p><p>This can be a useful condition to check for nonlinear systems as opposed to the sufficient Lyapunov test. 
 However, the index is preserved under homotopy, which is a rather weak notion of equivalance. There are plenty of linear systems which are homotopic to one another, but have different stability properties. 
-The proof that I learned requires \(n\neq 4\) since it is not known if sublevel sets of a smooth Lyapunov function are diffeomorphic to a \(3\) dimensional disk (they are atleast homoemorphic). 
+</p>
+<p>The proof that I learned requires \(n\neq 4\) since it is not known if sublevel sets of a smooth Lyapunov function are diffeomorphic to a \(3\) dimensional disk (they are atleast homoemorphic). 
 This may seem like a funny intricacy because, due to Perelman's proof of the Poincare conjecture, Wilson's theorem says that super level sets of smooth Lyapunov functions are diffeomorphic to \(S^{n-1}\) for all dimensions. 
 One would think that the interior of such \(n-1\) sphere would look a lot like a disk. This condition can be removed by considering homoemorphism of trajectories and maybe I will take the time to prove this soon.
 </p>
 <div id="footer">
 <div id="footer-text">
-Page generated 2021-06-17 20:18:34 CDT, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+Page generated 2021-06-19 14:30:03 CDT, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
 </div>
 </div>
 </td>
