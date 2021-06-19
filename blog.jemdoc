@@ -1,7 +1,7 @@
 # jemdoc: menu{MENU}{blog.html}
 = Cool Facts about Control
 
-== A Necessary Stability Condition for a Differentiable Autonomous System
+== A Necessary Stability Condition for Differentiable Autonomous Systems
 === (Under Construction)
 
     Consider the differentiable function $f:\mathbb{R}^n \rightarrow \mathbb{R}^n$. Let $x^*\in\mathbb{R}^n$ be an isolated equilibrium point. Because $x^*$ is isolated, there exists $\varepsilon >0$ such that for the ball $B_{\varepsilon}(x^*)$ centered at $x^*$ there are no other equilibrium points. Let $S_{\varepsilon}(x^*)$ be the boundary of $B_{\varepsilon}(x^*)$. Then we can give the well-defined map:
