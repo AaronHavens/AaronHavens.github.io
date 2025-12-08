@@ -50,20 +50,21 @@ h1, h2, h3, h4, h5, h6,
 }
 
 
-.post {
-  position: relative;
-  overflow: hidden; /* ensures video stays inside */
+.video-wrapper {
+  width: 100%;
+  height: 400px;          /* <-- adjust to match your profile photo height */
+  overflow: hidden;
+  border-radius: 0.5rem;  /* optional */
 }
 
-.post-bgvideo {
-  position: absolute;
-  top: -1130px;
-  left: 10px;
-  width: 140%;
-  height: 140%;
-  z-index: -1;        /* put behind text */
-  pointer-events: none;
+/* Make the video fill the wrapper */
+.profile-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;      /* makes it scale and crop properly */
+  display: block;
 }
+
 
 .honor-badge {
   border: 2px orange-color; /* orange outline */

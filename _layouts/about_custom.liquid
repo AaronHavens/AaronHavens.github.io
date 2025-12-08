@@ -1,79 +1,85 @@
 ---
 layout: default
 ---
-<div class="post post-has-video">
-  <!-- Background WebM animation -->
-  <video class="post-bgvideo" autoplay muted loop playsinline>
-    <source src="{{ '/assets/img/heisenberg_orange_alpha.webm' | relative_url }}" type="video/webm">
-  </video>
 
+<div class="post">
   <div class="post-content">
     <article>
-      {% if page.profile -%}
-        <div class="row">
-          <div class="col-sm-3">
-            {%- if page.profile.image %}
-              {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
+    
+{% if page.profile -%}
+  <div class="row align-items-center">
 
-              {% if page.profile.image_circular %}
-                {%- assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' -%}
-              {% else %}
-                {%- assign profile_image_class = 'img-fluid z-depth-1 rounded' -%}
-              {% endif %}
+    <!-- Profile image -->
+    <div class="col-md-3 col-sm-4 mb-3 mb-md-0">
+      {%- if page.profile.image %}
+        {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
+        {% if page.profile.image_circular %}
+          {%- assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' -%}
+        {% else %}
+          {%- assign profile_image_class = 'img-fluid z-depth-1 rounded' -%}
+        {% endif %}
+        {% include figure.liquid
+          path=profile_image_path
+          class=profile_image_class
+          alt=page.profile.image
+        -%}
+      {% endif -%}
+    </div>
 
-              {%
-                include figure.liquid
-                path=profile_image_path
-                class=profile_image_class
-                alt=page.profile.image
-              -%}
-            {% endif -%}
-          </div>
+    <!-- Name + subtitle + social -->
+    <div class="col-md-5 col-sm-8 mb-3 mb-md-0">
+      <h1 class="post-title">
+        {% if site.title == 'blank' -%}
+          <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}<br>
+          {{ site.last_name }}
+        {%- else -%}
+          {{ site.title }}
+        {%- endif %}
+      </h1>
 
-          <div class="col-sm-9">
-            <h1 class="post-title">
-              {% if site.title == 'blank' -%}
-                <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-                <br>
-                {{ site.last_name }}
-              {%- else -%}
-                {{ site.title }}
-              {%- endif %}
-            </h1>
+      <p class="desc">{{ page.subtitle }}</p>
 
-            <p class="desc">{{ page.subtitle }}</p>
-
-            {%- if page.profile.address %}
-              <div class="address">
-                {{ page.profile.address }}
-              </div>
-            {%- endif %}
-
-            {%- if page.social %}
-              <!-- Social -->
-              <div class="social">
-                <div class="contact-icons">
-                  {% include social.liquid %}
-                </div>
-              </div>
-            {%- endif %}
-          </div>
+      {%- if page.profile.address %}
+        <div class="address">
+          {{ page.profile.address }}
         </div>
       {%- endif %}
 
-      <div class="clearfix">
-        {{ content }}
-      </div>
-
-      {% if page.news -%}
-        <!-- News -->
-        {%- include news.liquid %}
+      {%- if page.social %}
+        <div class="social">
+          <div class="contact-icons">
+            {% include social.liquid %}
+          </div>
+        </div>
       {%- endif %}
+    </div>
 
-      {% if page.selected_papers -%}
-        <!-- Selected papers -->
-        {%- include selected_papers.liquid %}
-      {%- endif %}
-    </article>
+<div class="col-md-4">
+  <div class="video-wrapper">
+    <video class="profile-video" autoplay muted loop playsinline>
+      <source src="{{ '/assets/img/heisenberg_orange_alpha.webm' | relative_url }}" type="video/webm">
+    </video>
   </div>
+</div>
+
+  </div>
+{%- endif %}
+
+
+
+
+    <div class="clearfix">
+      {{ content }}
+    </div>
+
+    {% if page.news -%}
+      <!-- News -->
+      {%- include news.liquid %}
+    {%- endif %}
+
+    {% if page.selected_papers -%}
+      <!-- Selected papers -->
+      {%- include selected_papers.liquid %}
+    {%- endif %}
+  </article>
 </div>
