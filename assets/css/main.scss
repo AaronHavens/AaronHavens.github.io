@@ -1,0 +1,77 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Dimensions
+$max-content-width: {{ site.max_width }};
+
+@import
+  "variables",
+  "themes",
+  "layout",
+  "base",
+  "distill",
+  "cv",
+  "tabs",
+  "typograms",
+  "font-awesome/fontawesome",
+  "font-awesome/brands",
+  "font-awesome/solid",
+  "font-awesome/regular",
+  "tabler-icons/tabler-icons.scss",
+  "tabler-icons/tabler-icons-filled.scss",
+  "tabler-icons/tabler-icons-outline.scss"
+;
+
+// // === Custom font override ===
+// body {
+//   font-family: "Lucida Console", monospace !important;
+// }
+
+// h1, h2, h3, h4, h5, h6 {
+//   font-family: "Lucida Console", monospace !important;
+// }
+
+/* Use Lucida Console only for headings & main titles */
+h1, h2, h3, h4, h5, h6,
+.post-title,
+.card-title,
+.navbar {
+  font-family: "Lucida Console", monospace !important;
+}
+
+.theorem {
+  border-left: 4px solid #f29105;
+  background: #FFF3E0;
+  padding: 0.75rem 1rem;
+  margin: 1.5rem 0;
+  border-radius: 4px;
+}
+
+
+.post {
+  position: relative;
+  overflow: hidden; /* ensures video stays inside */
+}
+
+.post-bgvideo {
+  position: absolute;
+  top: -1200px;
+  left: 10px;
+  width: 140%;
+  height: 140%;
+  z-index: -1;        /* put behind text */
+  pointer-events: none;
+}
+
+.honor-badge {
+  border: 2px orange-color; /* orange outline */
+  color: #ff8800;
+  background-color: transparent;
+  padding: 3px 3px;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  text-align: center;
+  display: inline-block;
+}

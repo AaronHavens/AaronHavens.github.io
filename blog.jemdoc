@@ -1,5 +1,0 @@
-# jemdoc: menu{MENU}{blog.html}
-= Cool Facts about Control
-
-== 06\/28\/2021: [/blog_entry_1.html A Necessary Stability Condition for Differentiable Autonomous Systems]
-- In this post I discuss an interesting necessary condition for stability of an equilibrium point. The /index/ of an equilibrium point is a homotopy invariant property that is related to the topological degree of the vector field. The condition can be also be straight-forward to compute if the vector field is differentiable.
