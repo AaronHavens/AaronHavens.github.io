@@ -8,7 +8,7 @@ middle_name: J.
 last_name: Havens
 email: havensaaronj@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  a description
+  Aaron J. Havens ~ Postdoctoral Researcher at Meta FAIR
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 keywords: Aaron Havens, machine learning, control theory, autonomous systems, AI # add your own keywords or leave empty
