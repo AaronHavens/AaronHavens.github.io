@@ -34,12 +34,7 @@ ninja.data = [{
             window.location.href = "/blog/2025/cool-facts-about-control/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-i-defended-my-thesis-at-uiuc-and-have-started-as-a-postdoc-at-meta-fair",
+      },{id: "news-i-defended-my-thesis-at-uiuc-and-have-started-as-a-postdoc-at-meta-fair",
           title: 'I defended my thesis at UIUC and have started as a postdoc at...',
           description: "",
           section: "News",},{
