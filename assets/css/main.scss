@@ -76,3 +76,22 @@ h1, h2, h3, h4, h5, h6,
   text-align: center;
   display: inline-block;
 }
+
+
+/* Always show menu on mobile, hide the hamburger */
+@media (max-width: 575.98px) {
+  /* Force the collapsed menu to be visible */
+  #navbarNav.collapse {
+    display: block !important;
+  }
+
+  /* Optional: make sure it stretches full width if you like */
+  #navbarNav {
+    width: 100%;
+  }
+
+  /* Hide the hamburger button */
+  .navbar-toggler {
+    display: none !important;
+  }
+}
