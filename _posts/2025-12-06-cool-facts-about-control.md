@@ -9,7 +9,7 @@ math: true
 
 ### (Under Construction)
 
-Consider the differentiable function $f:\mathbb{R}^n \rightarrow \mathbb{R}^n$. Let $x^\* \in \mathbb{R}^n$ be an isolated equilibrium point. Because $x^\*$ is isolated, there exists $\varepsilon > 0$ such that for the ball $ B*{\varepsilon}(x^\*) $ centered at $x^\*$ there are no other equilibrium points. Let $ S*{\varepsilon}(x^\*) $ be the boundary of $ B\_{\varepsilon}(x^\*) $. Then we can define the well-defined map
+Consider the differentiable function $f:\mathbb{R}^n \rightarrow \mathbb{R}^n$. Let $x^\* \in \mathbb{R}^n$ be an isolated equilibrium point. Because $x^\*$ is isolated, there exists $\varepsilon > 0$ such that for the ball $ B{\varepsilon}(x^\*) $ centered at $x^\*$ there are no other equilibrium points. Let $ S{\varepsilon}(x^\*) $ be the boundary of $ B\_{\varepsilon}(x^\*) $. Then we can define the well-defined map
 
 $$
 f_{\varepsilon} : S_{\varepsilon}(x^*) \rightarrow S^{n-1}, \quad
