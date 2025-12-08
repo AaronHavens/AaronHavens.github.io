@@ -3,7 +3,7 @@ layout: about_custom
 background_image: "assets/img/contact_orange_cropped.gif"
 title: about
 permalink: /
-subtitle: |+ 
+subtitle: |+
   <br>
   <strong> Postdoctoral Researcher </strong> <br>
   <strong> Meta Fundamental AI Research (FAIR) </strong>

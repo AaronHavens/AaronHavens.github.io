@@ -9,18 +9,18 @@ math: true
 
 ### (Under Construction)
 
-Consider the differentiable function $f:\mathbb{R}^n \rightarrow \mathbb{R}^n$. Let $x^\* \in \mathbb{R}^n$ be an isolated equilibrium point. Because $x^\*$ is isolated, there exists $\varepsilon > 0$ such that for the ball $ B_{\varepsilon}(x^\*) $ centered at $x^\*$ there are no other equilibrium points. Let $ S_{\varepsilon}(x^\*) $ be the boundary of $ B_{\varepsilon}(x^\*) $. Then we can define the well-defined map
+Consider the differentiable function $f:\mathbb{R}^n \rightarrow \mathbb{R}^n$. Let $x^\* \in \mathbb{R}^n$ be an isolated equilibrium point. Because $x^\*$ is isolated, there exists $\varepsilon > 0$ such that for the ball $ B*{\varepsilon}(x^\*) $ centered at $x^\*$ there are no other equilibrium points. Let $ S*{\varepsilon}(x^\*) $ be the boundary of $ B\_{\varepsilon}(x^\*) $. Then we can define the well-defined map
 
 $$
 f_{\varepsilon} : S_{\varepsilon}(x^*) \rightarrow S^{n-1}, \quad
 x \mapsto \frac{f(x)}{\Vert f(x)\Vert}.
 $$
 
-We define the *index* of the isolated equilibrium point $x^\*$ to be the topological degree of $f_{\varepsilon}$ around $x^\*$. Since $S_{\varepsilon}(x^\*)$ and $S^{n-1}$ are both compact smooth manifolds and $f_{\varepsilon}$ is differentiable on its domain, we can use a particular definition of degree with respect to some regular value $y \in S^{n-1}$:
+We define the _index_ of the isolated equilibrium point $x^\*$ to be the topological degree of $f_{\varepsilon}$ around $x^\*$. Since $S_{\varepsilon}(x^\*)$ and $S^{n-1}$ are both compact smooth manifolds and $f_{\varepsilon}$ is differentiable on its domain, we can use a particular definition of degree with respect to some regular value $y \in S^{n-1}$:
 
 $$
-\operatorname{Ind}_{x^{*}}(f) = \deg (f_{\varepsilon}) 
-= \sum_{x\in f_{\varepsilon}^{-1}(y)} 
+\operatorname{Ind}_{x^{*}}(f) = \deg (f_{\varepsilon})
+= \sum_{x\in f_{\varepsilon}^{-1}(y)}
 \operatorname{sign} \left( \det \left( \frac{\partial f_{\varepsilon}}{\partial x}\Big\rvert_{x} \right) \right).
 $$
 
