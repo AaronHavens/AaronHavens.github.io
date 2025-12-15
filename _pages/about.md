@@ -29,4 +29,6 @@ latest_posts:
 
 I'm a postdoctoral researcher at FAIR on the Generative Modeling Foundations team under Brian Karrer and Yaron Lipman. I'm developing scalable methods for generative modeling and principled reward-based tilting / finetuning in both continuous and discrete domains. I'm especially passionate about modeling physical processes that help advance engineering and science, taking into account geometric structures and invariants.
 
-**Previously** I received a PhD in ECE from UIUC working on robust control theory $\cap$ machine learning under [Prof. Bin Hu](https://binhu7.github.io/). I have an MS in Aerospace engineering where I primarily worked on learning algorithms for autonomous field-robotics under Prof. Girish Chowdhary. I've been fortunate to have several industry research experiences at Meta FAIR NYC, Peferred Networks Tokyo, TuSimple (autonomous semi-trucks) and NASA Jet Propulsion Labs.
+**Previously** I received a PhD in ECE from UIUC working on robust control theory $\cap$ machine learning under [Prof. Bin Hu](https://binhu7.github.io/). I also have an MS in Aero engineering from UIUC where I primarily worked on learning algorithms for autonomous field-robotics under Prof. Girish Chowdhary. I've been fortunate to have several industry research experiences at Meta FAIR NYC, Peferred Networks Tokyo, TuSimple (autonomous semi-trucks) and NASA Jet Propulsion Lab (JPL). 
+
+I'm orignally from Des Moines Iowa 🌽, and earned my Bachelors in Mechanical engineering at Iowa State University, Ames IA.
