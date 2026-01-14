@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2025-12-31'
+  last_updated: '2026-01-14'
 papers:
   HBAXF6YAAAAJ:0EnyYjriUFMC:
     citations: 9
@@ -14,11 +14,11 @@ papers:
     title: Forced variational integrator networks for prediction and control of mechanical systems
     year: '2021'
   HBAXF6YAAAAJ:LkGwnXOMwfcC:
-    citations: 81
+    citations: 84
     title: 'Capabilities of large language models in control engineering: A benchmark study on gpt-4, claude 3 opus, and gemini 1.0 ultra'
     year: '2024'
   HBAXF6YAAAAJ:Se3iqnhoufwC:
-    citations: 26
+    citations: 28
     title: 'Adjoint sampling: Highly scalable diffusion samplers via adjoint matching'
     year: '2025'
   HBAXF6YAAAAJ:UeHWp8X0CEIC:
@@ -74,7 +74,7 @@ papers:
     title: Online robust policy learning in the presence of unknown adversaries
     year: '2018'
   HBAXF6YAAAAJ:ufrVoPGSRksC:
-    citations: 20
+    citations: 21
     title: On the scalability and memory efficiency of semidefinite programs for lipschitz constant estimation of neural networks
     year: '2024'
   HBAXF6YAAAAJ:zYLM7Y9cAGgC:
