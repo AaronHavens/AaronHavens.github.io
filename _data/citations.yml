@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-06'
+  last_updated: '2026-04-15'
 papers:
   HBAXF6YAAAAJ:0EnyYjriUFMC:
     citations: 12
@@ -18,7 +18,7 @@ papers:
     title: 'Capabilities of large language models in control engineering: A benchmark study on gpt-4, claude 3 opus, and gemini 1.0 ultra'
     year: '2024'
   HBAXF6YAAAAJ:Se3iqnhoufwC:
-    citations: 42
+    citations: 43
     title: 'Adjoint sampling: Highly scalable diffusion samplers via adjoint matching'
     year: '2025'
   HBAXF6YAAAAJ:UeHWp8X0CEIC:
@@ -30,7 +30,7 @@ papers:
     title: 'ON THE SCALABILITY AND MEMORY EFFICIENCY OF SEMIDEFINITE PROGRAMS FOR LIPSCHITZ CONSTANT ESTIMATION OF NEURAL NETWORKS: SCALING THE COMPUTATION FOR IMAGENET'
     year: '2024'
   HBAXF6YAAAAJ:W7OEmFMy1HYC:
-    citations: 93
+    citations: 94
     title: A unified algebraic perspective on lipschitz neural networks
     year: '2023'
   HBAXF6YAAAAJ:WF5omc3nYNoC:
