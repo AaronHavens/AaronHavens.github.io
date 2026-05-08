@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-27'
+  last_updated: '2026-05-08'
 papers:
   HBAXF6YAAAAJ:0EnyYjriUFMC:
     citations: 12
@@ -18,7 +18,7 @@ papers:
     title: 'Capabilities of large language models in control engineering: A benchmark study on gpt-4, claude 3 opus, and gemini 1.0 ultra'
     year: '2024'
   HBAXF6YAAAAJ:Se3iqnhoufwC:
-    citations: 45
+    citations: 47
     title: 'Adjoint sampling: Highly scalable diffusion samplers via adjoint matching'
     year: '2025'
   HBAXF6YAAAAJ:UeHWp8X0CEIC:
@@ -34,7 +34,7 @@ papers:
     title: A unified algebraic perspective on lipschitz neural networks
     year: '2023'
   HBAXF6YAAAAJ:WF5omc3nYNoC:
-    citations: 15
+    citations: 16
     title: Novel quadratic constraints for extending lipsdp beyond slope-restricted activations
     year: '2024'
   HBAXF6YAAAAJ:Y0pCki6q_DkC:
@@ -66,7 +66,7 @@ papers:
     title: Learning to cope with adversarial attacks
     year: '2019'
   HBAXF6YAAAAJ:u5HHmVD_uO8C:
-    citations: 66
+    citations: 67
     title: Online robust policy learning in the presence of unknown adversaries
     year: '2018'
   HBAXF6YAAAAJ:ufrVoPGSRksC:
