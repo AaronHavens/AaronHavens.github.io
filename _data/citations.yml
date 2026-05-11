@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-08'
+  last_updated: '2026-05-11'
 papers:
   HBAXF6YAAAAJ:0EnyYjriUFMC:
     citations: 12
@@ -17,8 +17,12 @@ papers:
     citations: 93
     title: 'Capabilities of large language models in control engineering: A benchmark study on gpt-4, claude 3 opus, and gemini 1.0 ultra'
     year: '2024'
+  HBAXF6YAAAAJ:MXK_kJrjxJIC:
+    citations: 0
+    title: 'Flow Sampling: Learning to Sample from Unnormalized Densities via Denoising Conditional Processes'
+    year: '2026'
   HBAXF6YAAAAJ:Se3iqnhoufwC:
-    citations: 47
+    citations: 49
     title: 'Adjoint sampling: Highly scalable diffusion samplers via adjoint matching'
     year: '2025'
   HBAXF6YAAAAJ:UeHWp8X0CEIC:
@@ -30,7 +34,7 @@ papers:
     title: 'ON THE SCALABILITY AND MEMORY EFFICIENCY OF SEMIDEFINITE PROGRAMS FOR LIPSCHITZ CONSTANT ESTIMATION OF NEURAL NETWORKS: SCALING THE COMPUTATION FOR IMAGENET'
     year: '2024'
   HBAXF6YAAAAJ:W7OEmFMy1HYC:
-    citations: 94
+    citations: 95
     title: A unified algebraic perspective on lipschitz neural networks
     year: '2023'
   HBAXF6YAAAAJ:WF5omc3nYNoC:
@@ -46,7 +50,7 @@ papers:
     title: Exploiting connections between Lipschitz structures for certifiably robust deep equilibrium models
     year: '2023'
   HBAXF6YAAAAJ:_FxGoFyzp5QC:
-    citations: 6
+    citations: 7
     title: Fine-grained Local Sensitivity Analysis of Standard Dot-Product Self-Attention
     year: '2024'
   HBAXF6YAAAAJ:d1gkVwhDpl0C:
