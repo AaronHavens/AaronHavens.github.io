@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-05-11'
+  last_updated: '2026-06-08'
 papers:
   HBAXF6YAAAAJ:0EnyYjriUFMC:
     citations: 12
     title: 'Capabilities of large language models in control engineering: A benchmark study on gpt-4, claude 3 opus, and gemini 1.0 ultra. arXiv 2024'
     year: Unknown Year
   HBAXF6YAAAAJ:5nxA0vEk-isC:
-    citations: 7
+    citations: 8
     title: 'Capabilities of large language models in control engineering: a benchmark study on GPT-4'
     year: '2024'
   HBAXF6YAAAAJ:IjCSPb-OGe4C:
@@ -14,7 +14,7 @@ papers:
     title: Forced variational integrator networks for prediction and control of mechanical systems
     year: '2021'
   HBAXF6YAAAAJ:LkGwnXOMwfcC:
-    citations: 93
+    citations: 95
     title: 'Capabilities of large language models in control engineering: A benchmark study on gpt-4, claude 3 opus, and gemini 1.0 ultra'
     year: '2024'
   HBAXF6YAAAAJ:MXK_kJrjxJIC:
@@ -22,7 +22,7 @@ papers:
     title: 'Flow Sampling: Learning to Sample from Unnormalized Densities via Denoising Conditional Processes'
     year: '2026'
   HBAXF6YAAAAJ:Se3iqnhoufwC:
-    citations: 49
+    citations: 55
     title: 'Adjoint sampling: Highly scalable diffusion samplers via adjoint matching'
     year: '2025'
   HBAXF6YAAAAJ:UeHWp8X0CEIC:
@@ -34,7 +34,7 @@ papers:
     title: 'ON THE SCALABILITY AND MEMORY EFFICIENCY OF SEMIDEFINITE PROGRAMS FOR LIPSCHITZ CONSTANT ESTIMATION OF NEURAL NETWORKS: SCALING THE COMPUTATION FOR IMAGENET'
     year: '2024'
   HBAXF6YAAAAJ:W7OEmFMy1HYC:
-    citations: 95
+    citations: 96
     title: A unified algebraic perspective on lipschitz neural networks
     year: '2023'
   HBAXF6YAAAAJ:WF5omc3nYNoC:
@@ -46,7 +46,7 @@ papers:
     title: Revisiting pgd attacks for stability analysis of high-dimensional nonlinear systems and perception-based control
     year: '2022'
   HBAXF6YAAAAJ:YsMSGLbcyi4C:
-    citations: 17
+    citations: 18
     title: Exploiting connections between Lipschitz structures for certifiably robust deep equilibrium models
     year: '2023'
   HBAXF6YAAAAJ:_FxGoFyzp5QC:
@@ -61,6 +61,10 @@ papers:
     citations: 0
     title: Reinforcement Learning and Adaptive Control
     year: '2021'
+  HBAXF6YAAAAJ:kNdYIx-mwKoC:
+    citations: 0
+    title: Diffusion Sampling of Adsorbate Configurations on Catalyst Surfaces
+    year: Unknown Year
   HBAXF6YAAAAJ:qjMakFHDy7sC:
     citations: 52
     title: 'A Berry Picking Robot With A Hybrid Soft-Rigid Arm: Design and Task Space Control.'
@@ -70,7 +74,7 @@ papers:
     title: Learning to cope with adversarial attacks
     year: '2019'
   HBAXF6YAAAAJ:u5HHmVD_uO8C:
-    citations: 67
+    citations: 68
     title: Online robust policy learning in the presence of unknown adversaries
     year: '2018'
   HBAXF6YAAAAJ:ufrVoPGSRksC:
