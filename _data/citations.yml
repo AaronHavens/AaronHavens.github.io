@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-06-08'
+  last_updated: '2026-06-19'
 papers:
   HBAXF6YAAAAJ:0EnyYjriUFMC:
-    citations: 12
+    citations: 13
     title: 'Capabilities of large language models in control engineering: A benchmark study on gpt-4, claude 3 opus, and gemini 1.0 ultra. arXiv 2024'
     year: Unknown Year
   HBAXF6YAAAAJ:5nxA0vEk-isC:
@@ -14,7 +14,7 @@ papers:
     title: Forced variational integrator networks for prediction and control of mechanical systems
     year: '2021'
   HBAXF6YAAAAJ:LkGwnXOMwfcC:
-    citations: 95
+    citations: 98
     title: 'Capabilities of large language models in control engineering: A benchmark study on gpt-4, claude 3 opus, and gemini 1.0 ultra'
     year: '2024'
   HBAXF6YAAAAJ:MXK_kJrjxJIC:
@@ -34,11 +34,11 @@ papers:
     title: 'ON THE SCALABILITY AND MEMORY EFFICIENCY OF SEMIDEFINITE PROGRAMS FOR LIPSCHITZ CONSTANT ESTIMATION OF NEURAL NETWORKS: SCALING THE COMPUTATION FOR IMAGENET'
     year: '2024'
   HBAXF6YAAAAJ:W7OEmFMy1HYC:
-    citations: 96
+    citations: 97
     title: A unified algebraic perspective on lipschitz neural networks
     year: '2023'
   HBAXF6YAAAAJ:WF5omc3nYNoC:
-    citations: 16
+    citations: 17
     title: Novel quadratic constraints for extending lipsdp beyond slope-restricted activations
     year: '2024'
   HBAXF6YAAAAJ:Y0pCki6q_DkC:
@@ -78,7 +78,7 @@ papers:
     title: Online robust policy learning in the presence of unknown adversaries
     year: '2018'
   HBAXF6YAAAAJ:ufrVoPGSRksC:
-    citations: 25
+    citations: 26
     title: On the scalability and memory efficiency of semidefinite programs for Lipschitz constant estimation of neural networks
     year: '2024'
   HBAXF6YAAAAJ:zYLM7Y9cAGgC:
