@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-19'
+  last_updated: '2026-06-29'
 papers:
   HBAXF6YAAAAJ:0EnyYjriUFMC:
     citations: 13
@@ -14,7 +14,7 @@ papers:
     title: Forced variational integrator networks for prediction and control of mechanical systems
     year: '2021'
   HBAXF6YAAAAJ:LkGwnXOMwfcC:
-    citations: 98
+    citations: 100
     title: 'Capabilities of large language models in control engineering: A benchmark study on gpt-4, claude 3 opus, and gemini 1.0 ultra'
     year: '2024'
   HBAXF6YAAAAJ:MXK_kJrjxJIC:
