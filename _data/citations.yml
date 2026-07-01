@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-29'
+  last_updated: '2026-07-01'
 papers:
   HBAXF6YAAAAJ:0EnyYjriUFMC:
     citations: 13
@@ -10,7 +10,7 @@ papers:
     title: 'Capabilities of large language models in control engineering: a benchmark study on GPT-4'
     year: '2024'
   HBAXF6YAAAAJ:IjCSPb-OGe4C:
-    citations: 13
+    citations: 14
     title: Forced variational integrator networks for prediction and control of mechanical systems
     year: '2021'
   HBAXF6YAAAAJ:LkGwnXOMwfcC:
@@ -18,11 +18,11 @@ papers:
     title: 'Capabilities of large language models in control engineering: A benchmark study on gpt-4, claude 3 opus, and gemini 1.0 ultra'
     year: '2024'
   HBAXF6YAAAAJ:MXK_kJrjxJIC:
-    citations: 0
+    citations: 1
     title: 'Flow Sampling: Learning to Sample from Unnormalized Densities via Denoising Conditional Processes'
     year: '2026'
   HBAXF6YAAAAJ:Se3iqnhoufwC:
-    citations: 55
+    citations: 58
     title: 'Adjoint sampling: Highly scalable diffusion samplers via adjoint matching'
     year: '2025'
   HBAXF6YAAAAJ:UeHWp8X0CEIC:
