@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-01'
+  last_updated: '2026-07-10'
 papers:
   HBAXF6YAAAAJ:0EnyYjriUFMC:
     citations: 13
@@ -66,7 +66,7 @@ papers:
     title: Diffusion Sampling of Adsorbate Configurations on Catalyst Surfaces
     year: Unknown Year
   HBAXF6YAAAAJ:qjMakFHDy7sC:
-    citations: 52
+    citations: 53
     title: 'A Berry Picking Robot With A Hybrid Soft-Rigid Arm: Design and Task Space Control.'
     year: '2020'
   HBAXF6YAAAAJ:u-x6o8ySG0sC:
