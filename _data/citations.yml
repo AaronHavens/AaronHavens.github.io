@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-07-10'
+  last_updated: '2026-07-22'
 papers:
   HBAXF6YAAAAJ:0EnyYjriUFMC:
-    citations: 13
+    citations: 14
     title: 'Capabilities of large language models in control engineering: A benchmark study on gpt-4, claude 3 opus, and gemini 1.0 ultra. arXiv 2024'
     year: Unknown Year
   HBAXF6YAAAAJ:5nxA0vEk-isC:
@@ -14,7 +14,7 @@ papers:
     title: Forced variational integrator networks for prediction and control of mechanical systems
     year: '2021'
   HBAXF6YAAAAJ:LkGwnXOMwfcC:
-    citations: 100
+    citations: 102
     title: 'Capabilities of large language models in control engineering: A benchmark study on gpt-4, claude 3 opus, and gemini 1.0 ultra'
     year: '2024'
   HBAXF6YAAAAJ:MXK_kJrjxJIC:
@@ -22,7 +22,7 @@ papers:
     title: 'Flow Sampling: Learning to Sample from Unnormalized Densities via Denoising Conditional Processes'
     year: '2026'
   HBAXF6YAAAAJ:Se3iqnhoufwC:
-    citations: 58
+    citations: 62
     title: 'Adjoint sampling: Highly scalable diffusion samplers via adjoint matching'
     year: '2025'
   HBAXF6YAAAAJ:UeHWp8X0CEIC:
@@ -34,11 +34,11 @@ papers:
     title: 'ON THE SCALABILITY AND MEMORY EFFICIENCY OF SEMIDEFINITE PROGRAMS FOR LIPSCHITZ CONSTANT ESTIMATION OF NEURAL NETWORKS: SCALING THE COMPUTATION FOR IMAGENET'
     year: '2024'
   HBAXF6YAAAAJ:W7OEmFMy1HYC:
-    citations: 97
+    citations: 96
     title: A unified algebraic perspective on lipschitz neural networks
     year: '2023'
   HBAXF6YAAAAJ:WF5omc3nYNoC:
-    citations: 17
+    citations: 16
     title: Novel quadratic constraints for extending lipsdp beyond slope-restricted activations
     year: '2024'
   HBAXF6YAAAAJ:Y0pCki6q_DkC:
@@ -46,7 +46,7 @@ papers:
     title: Revisiting pgd attacks for stability analysis of high-dimensional nonlinear systems and perception-based control
     year: '2022'
   HBAXF6YAAAAJ:YsMSGLbcyi4C:
-    citations: 18
+    citations: 17
     title: Exploiting connections between Lipschitz structures for certifiably robust deep equilibrium models
     year: '2023'
   HBAXF6YAAAAJ:_FxGoFyzp5QC:
@@ -74,11 +74,11 @@ papers:
     title: Learning to cope with adversarial attacks
     year: '2019'
   HBAXF6YAAAAJ:u5HHmVD_uO8C:
-    citations: 68
+    citations: 69
     title: Online robust policy learning in the presence of unknown adversaries
     year: '2018'
   HBAXF6YAAAAJ:ufrVoPGSRksC:
-    citations: 26
+    citations: 25
     title: On the scalability and memory efficiency of semidefinite programs for Lipschitz constant estimation of neural networks
     year: '2024'
   HBAXF6YAAAAJ:zYLM7Y9cAGgC:
